@@ -22,3 +22,9 @@ p {
     text-align: justify;
     text-justify: inter-word;
 }
+section {
+    height: 300px;
+    width: 300px;
+    background-color: dodgerblue;
+    margin-top: 20px;
+}
