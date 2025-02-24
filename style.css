@@ -17,7 +17,7 @@ div {
     align-items: center;
     flex-direction: column;
 }
-p {
+div p {
     width: 50%;
     text-align: justify;
     text-justify: inter-word;
@@ -27,4 +27,22 @@ section {
     width: 300px;
     background-color: dodgerblue;
     margin-top: 20px;
+}
+p.long-text {
+    width: 300px;
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+.positioneddiv {
+    position: relative;
+}
+.positioneddiv section {
+    position: relative;
+    background-color: burlywood;
+}
+.positioneddiv p {
+    position: absolute;
+    top: -40px;;
+    left: -20px;
 }
