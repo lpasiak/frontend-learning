@@ -40,6 +40,7 @@ p.long-text {
 .positioneddiv section {
     position: relative;
     background-color: burlywood;
+    margin-bottom: 50px;
 }
 .positioneddiv p {
     position: absolute;
@@ -54,4 +55,18 @@ p.long-text {
     height: 40px;
     width: 40px;
     transform: rotate(45deg)
+}
+#fixedthing:hover {
+    height: 200px;
+    width: 200px;
+    background: red;
+    left: -100px;
+    top: -100px;
+    transition: all 1s ease-in-out;
+}
+span {
+    display: inline;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
 }
