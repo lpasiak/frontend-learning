@@ -4,45 +4,45 @@ body {
     color: #fff;
 }
 
-h1 {
+#fun h1 {
     text-align: center;
     padding: 10px 20px;
     border-bottom: 2px dashed #fff;
     margin: 0;
 }
 
-div {
+#fun div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-div p {
+#fun div p {
     width: 50%;
     text-align: justify;
     text-justify: inter-word;
 }
-section {
+#fun section {
     height: 300px;
     width: 300px;
     background-color: dodgerblue;
     margin-top: 20px;
 }
-p.long-text {
+#fun p.long-text {
     width: 300px;
     position: relative;
     top: -100px;
     left: 100px;
 }
-.positioneddiv {
+#fun .positioneddiv {
     position: relative;
 }
-.positioneddiv section {
+#fun .positioneddiv section {
     position: relative;
     background-color: burlywood;
     margin-bottom: 50px;
 }
-.positioneddiv p {
+#fun .positioneddiv p {
     position: absolute;
     top: -40px;;
     left: -20px;
@@ -64,9 +64,59 @@ p.long-text {
     top: -100px;
     transition: all 1s ease-in-out;
 }
-span {
+#fun span {
     display: inline-block;
     background-color: red;
     margin: 10px;
     padding: 10px;
+}
+#fun header {
+    margin: 30px;
+}
+#fun header img {
+    width: 250px;
+    float: left;
+    padding: 0 20px 10px 0
+}
+
+/* Flexbox section */
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.flexbox .card {
+    background-color: seagreen;
+    width: 33%;
+    padding: 10px;
+}
+.flexbox2 {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+}
+.flexbox2 .color {
+    padding: 10px;
+    flex-basis: 100px;
+}
+.red {
+    background-color: red
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: dodgerblue;
+}
+.indigo {
+    background-color: turquoise;
+}
+.violet {
+    background-color: purple;
 }
